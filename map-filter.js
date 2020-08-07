@@ -48,18 +48,18 @@ arr.forEach(function(num, index){
     console.log(num, index);
 })
 
-arrow function
+//arrow function
 const result = (x) => x * x;
 
 console.log(result(5));
 
-square a number using foreach
+//square a number using foreach
 let arr = [10, 20, 30, 40, 50];
 const arrCpy = [];
 
-// arr.forEach(function(x){
-//     arrCpy.push(x*x);
-// })
+arr.forEach(function(x){
+    arrCpy.push(x*x);
+})
 
 arr.forEach(x => arrCpy.push(x*x));
 
